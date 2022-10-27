@@ -1,6 +1,11 @@
 # Press the green button in the gutter to run the script.
+
+
 if __name__ == '__main__':
-    lower = 900
+    def fun(x):
+        print(x)
+
+    lower = 1
     upper = 1000
 
     print("Prime numbers between", lower, "and", upper, "are:")
@@ -13,3 +18,4 @@ if __name__ == '__main__':
                     break
             else:
                 print(num)
+    fun(5)
